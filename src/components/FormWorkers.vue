@@ -1,6 +1,6 @@
 <template>
     <form class="form" @submit.prevent="">
-        <h2>Создание поста</h2>
+        <h2>Добавить сотрудника</h2>
         <input v-model="worker.name" class="input" type="text" placeholder="Имя" />
         <input v-model="worker.lastname" class="input" type="text" placeholder="Фамилия" />
         <input v-model="worker.experience" class="input" type="number" placeholder="Стаж">
